@@ -3,18 +3,18 @@ package sec01.exam08;
 public class SwitchStringExample {
 
 	public static void main(String[] args) {
-		// TODO String Å¸ÀÔÀÇ switch¹®
-		String position = "°úÀå";
+		// TODO String Å¸ï¿½ï¿½ï¿½ï¿½ switchï¿½ï¿½
+		String position = "ê³¼ìž¥";
 		
 		switch(position) {
-		case "ºÎÀå":
-			System.out.println("700¸¸¿ø");
+		case "ë¶€ìž¥":
+			System.out.println("700ï¿½ï¿½ï¿½ï¿½");
 			break;
-		case "°úÀå":
-			System.out.println("500¸¸¿ø");
+		case "ê³¼ìž¥":
+			System.out.println("500ï¿½ï¿½ï¿½ï¿½");
 			break;
 		default:
-			System.out.println("300¸¸¿ø");
+			System.out.println("300ï¿½ï¿½ï¿½ï¿½");
 		}
 
 	}
